@@ -1,0 +1,64 @@
+.panel-left {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+}
+.panel-left-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.panel-left-button {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  background-color: #06f;
+  border: 2px solid #fff;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  outline: none;
+}
+.panel-left-button:hover {
+  background-color: #0c0;
+}
+.panel-left-text {
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  border: 2px solid #06f;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.panel-left-text:hover {
+  border: 2px solid #0c0;
+}
+.panel-left-img {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #06f;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.panel-left-img:hover {
+  border: 2px solid #0c0;
+}

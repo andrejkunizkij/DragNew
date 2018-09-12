@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Titles -->
+	<title>Super project</title>
+	<meta name="keywords" content="Ключевые слова...">
+	<meta name="description" content="Описание страницы...">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="libs/normalize/normalize.css">
+	<link rel="stylesheet" href="libs/bootstrap-4-grid/grid.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- FavIcons -->
+	<link rel="shortcut icon" href="img/icons/logo-16.png" type="image/x-icon" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+</head>
+
+<body>
+
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+	<![endif]-->
+
+	<!-- Header -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+
+				<div class="row">
+					<!-- header-logo -->
+					<div class="col-2">
+						<div class="header-logo logo">
+							<a href="#"><img src="img/icons/logo-64.png" alt="logo"></a>
+						</div>
+					</div>
+					<!-- header-logo -->
+					<!-- header-description -->
+					<div class="col-10">
+						<h1 class="header-description text-right ">Super project</h1>
+					</div>
+					<!--// header-description -->
+				</div>
+
+			</div>
+		</header>
+		<!-- // Header -->
+
+		<!-- Main -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel-left ">
+						<div class="panel-left-wrap">
+							<h2 class="panel-left-heading">select an item<br>(button, text or image)</h2>
+							<button id="draggable-btn" class="panel-left-button" draggable="true">button</button>
+							<p id="draggable-text" class="panel-left-text">Text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi, amet. Ratione magnam fugit distinctio.</p>
+							<img id="draggable-img" class="panel-left-img" src="img/icons/project_placeholder.jpg" alt="photo">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel-right ">
+						
+						<div class="panel-right-phone">
+
+							<div id="screen-phone" class="panel-right-phone-screen">
+							  <dialog id="window">
+                              <h3>Simple modal</h3>
+                              <p>Input your values</p>
+                              <button id="exit">Close</button>
+                              </dialog>
+                              <button id="show">Click</button>
+                              <form>
+                              <select size="5" multiple>
+			                  <option>background</option>
+			                  <option>color</option>
+			                  <option>padding</option>
+			                  <option selected>margin</option>
+			                  <option>font-size</option>
+			                  <option>font-family</option>
+			                  <option>border</option>
+		                      </select>
+		                      </form>
+							</div>
+							<div class="panel-right-phone-button"></div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--// Main -->
+
+		<!-- Footer -->
+		<footer class="footer">
+
+			<div class="container">
+				<div class="col-12">
+					<div class="footer-description">
+						Demo
+					</div>
+				</div>
+				<!-- Copyright -->
+				<div class="col-12">
+					<div class="footer-copyright">&copy; Copyright 2018 </div>
+				</div>
+				<!-- // Copyright -->
+			</div>
+
+		</footer>
+	</div>
+	<!-- // Footer -->
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
